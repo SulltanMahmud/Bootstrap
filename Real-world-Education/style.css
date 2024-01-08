@@ -1,0 +1,46 @@
+ .brand-gradient {
+        background: #007bff; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to top,
+          #007bff,
+          #45bf59
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to top,
+          #007bff,
+          #45bf59
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      .navbar-brand img{
+        width: 50px;
+      }
+
+      .full-width{
+        width: 100%;
+        height: auto;
+      }
+
+      .feature-item img{
+        width: 50px;
+        height: auto;
+      }
+
+      .subscribe{
+        background-image: url('img/subscribe.jpg');
+        background-size: cover;
+        background-position:center ;
+      }
+
+      .brand-icon img{
+        width: 150px;
+        height: auto;
+      }
+
+      .blur-filter{
+        backdrop-filter: blue;
+        background-color: rgb(255, 255,255 /30%);
+      }
